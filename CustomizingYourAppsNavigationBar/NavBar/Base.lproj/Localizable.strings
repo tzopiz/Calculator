@@ -1,0 +1,30 @@
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+Localized strings.
+*/
+
+/* Main View Controller */
+"Choose a UIBarStyle:" = "Choose a UIBarStyle:";
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Default" = "Default";
+"Black Opaque" = "Black Opaque";
+
+/* CustomRightViewController */
+"AddTitle" = "Add";
+
+/* CustomTitleViewController */
+"Image" = "Image";
+"Text" = "Text";
+"Video" = "Video";
+
+/* NavigationPromptViewController */
+"Navigation prompts appear at the top." = "Navigation prompts appear at the top.";
+
+/* BarButtonMenu */
+"Copy" = "Copy";
+"Rename" = "Rename";
+"Duplicate" = "Duplicate";
+"Move" = "Move";
