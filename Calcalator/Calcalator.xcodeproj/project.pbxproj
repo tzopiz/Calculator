@@ -15,6 +15,7 @@
 		0A13141F2935E0580041540E /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A13141E2935E0580041540E /* MenuDataSource.swift */; };
 		0A1314242935ED970041540E /* UIAnimation + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1314232935ED970041540E /* UIAnimation + ext.swift */; };
 		0A13142B2935FB2B0041540E /* Menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 0A1314292935FB2B0041540E /* Menu.json */; };
+		0A8A7FCA2990034500F42290 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0A8A7FC92990034500F42290 /* README.md */; };
 		0A8A87E02960D628003AF506 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A87DF2960D628003AF506 /* WikiViewController.swift */; };
 		0A8A87E22960D85A003AF506 /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8A87E12960D85A003AF506 /* MatrixViewController.swift */; };
 		0AC3F8C52956285200DDB22A /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC3F8C42956285200DDB22A /* CalcViewController.swift */; };
@@ -63,6 +64,7 @@
 		0A13141E2935E0580041540E /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
 		0A1314232935ED970041540E /* UIAnimation + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAnimation + ext.swift"; sourceTree = "<group>"; };
 		0A1314292935FB2B0041540E /* Menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Menu.json; sourceTree = "<group>"; };
+		0A8A7FC92990034500F42290 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0A8A87DF2960D628003AF506 /* WikiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
 		0A8A87E12960D85A003AF506 /* MatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
 		0AC3F8C42956285200DDB22A /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		0ADC33BE292F8F36002D4A8A = {
 			isa = PBXGroup;
 			children = (
+				0A8A7FC92990034500F42290 /* README.md */,
 				0ADC33C9292F8F36002D4A8A /* Calcalator */,
 				0ADC33E3292F8F38002D4A8A /* CalcalatorTests */,
 				0ADC33ED292F8F38002D4A8A /* CalcalatorUITests */,
@@ -339,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8A7FCA2990034500F42290 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
