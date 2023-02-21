@@ -23,7 +23,6 @@
 		0ACFE0292930F7A90013779F /* FunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACFE0282930F7A90013779F /* FunctionsViewController.swift */; };
 		0ADC33CB292F8F36002D4A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC33CA292F8F36002D4A8A /* AppDelegate.swift */; };
 		0ADC33CD292F8F36002D4A8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC33CC292F8F36002D4A8A /* SceneDelegate.swift */; };
-		0ADC33D2292F8F36002D4A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC33D0292F8F36002D4A8A /* Main.storyboard */; };
 		0ADC33D5292F8F36002D4A8A /* Calcalator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC33D3292F8F36002D4A8A /* Calcalator.xcdatamodeld */; };
 		0ADC33D7292F8F38002D4A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC33D6292F8F38002D4A8A /* Assets.xcassets */; };
 		0ADC33DA292F8F38002D4A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC33D8292F8F38002D4A8A /* LaunchScreen.storyboard */; };
@@ -73,7 +72,6 @@
 		0ADC33C7292F8F36002D4A8A /* Calcalator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calcalator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADC33CA292F8F36002D4A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ADC33CC292F8F36002D4A8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0ADC33D1292F8F36002D4A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ADC33D4292F8F36002D4A8A /* Calcalator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calcalator.xcdatamodel; sourceTree = "<group>"; };
 		0ADC33D6292F8F38002D4A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ADC33D9292F8F38002D4A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -140,6 +138,35 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		0A80553029A564D400375192 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0ADC33CA292F8F36002D4A8A /* AppDelegate.swift */,
+				0ADC33CC292F8F36002D4A8A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0A80553129A564F200375192 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0A13141E2935E0580041540E /* MenuDataSource.swift */,
+				0ADC33D3292F8F36002D4A8A /* Calcalator.xcdatamodeld */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		0A80553229A5655100375192 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0A1314292935FB2B0041540E /* Menu.json */,
+				0ADC33D6292F8F38002D4A8A /* Assets.xcassets */,
+				0ADC33D8292F8F38002D4A8A /* LaunchScreen.storyboard */,
+				0ADC33DB292F8F38002D4A8A /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		0ACFE0272930EEAC0013779F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,17 +200,11 @@
 		0ADC33C9292F8F36002D4A8A /* Calcalator */ = {
 			isa = PBXGroup;
 			children = (
-				0ADC33CA292F8F36002D4A8A /* AppDelegate.swift */,
-				0ADC33CC292F8F36002D4A8A /* SceneDelegate.swift */,
-				0A13141E2935E0580041540E /* MenuDataSource.swift */,
-				0A1314292935FB2B0041540E /* Menu.json */,
+				0A80553029A564D400375192 /* Application */,
+				0A80553129A564F200375192 /* DataSource */,
 				0ACFE0272930EEAC0013779F /* Controllers */,
 				0ADC33FD292F8FEC002D4A8A /* Helper */,
-				0ADC33D0292F8F36002D4A8A /* Main.storyboard */,
-				0ADC33D6292F8F38002D4A8A /* Assets.xcassets */,
-				0ADC33D8292F8F38002D4A8A /* LaunchScreen.storyboard */,
-				0ADC33DB292F8F38002D4A8A /* Info.plist */,
-				0ADC33D3292F8F36002D4A8A /* Calcalator.xcdatamodeld */,
+				0A80553229A5655100375192 /* SupportingFiles */,
 			);
 			path = Calcalator;
 			sourceTree = "<group>";
@@ -327,7 +348,6 @@
 				0ADC33DA292F8F38002D4A8A /* LaunchScreen.storyboard in Resources */,
 				0A13142B2935FB2B0041540E /* Menu.json in Resources */,
 				0ADC33D7292F8F38002D4A8A /* Assets.xcassets in Resources */,
-				0ADC33D2292F8F36002D4A8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +430,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0ADC33D0292F8F36002D4A8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0ADC33D1292F8F36002D4A8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0ADC33D8292F8F38002D4A8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -553,11 +565,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 653PNCT9WW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calcalator/Info.plist;
+				INFOPLIST_FILE = Calcalator/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -585,11 +596,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 653PNCT9WW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calcalator/Info.plist;
+				INFOPLIST_FILE = Calcalator/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
